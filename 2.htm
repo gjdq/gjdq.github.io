@@ -8,9 +8,9 @@ var t="",ee="";
 function se()
 {
 t = document.getElementById("tt").value;
-var htm="<iframe src=/""+t+"/" width=/"200/" height=/"200/" id=/"center/"></iframe>";
+var htm="<iframe src=\""+t+"\" width=\"200\" height=\"200\" id=\"center\"></iframe>";
 document.writeln(htm);
-var obj = document.getElementsByTagName("center")[0];
+var obj = document.getElementsByTagName("center");
 var str = obj.innerText;
 var beginIndex = str.indexOf("src=\"img.tukuppt.com/newpreview_music");
 console.log(ipStr);
